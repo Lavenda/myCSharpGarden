@@ -12,23 +12,42 @@ namespace WindowsFormsApplication2
 {
     public partial class mainFrom : Form
     {
-        private int _scope = 999;
+        private int _scope = 260;
+        private int bingoNum = 0;
 
         public mainFrom()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            
-        }
 
         private void showNumTimer_Tick(object sender, EventArgs e)
         {
+            this.randomNum();
+        }
+
+        private void randomNum()
+        {
             Random random = new Random();
-            int bingoNum = random.Next(_scope);
-            this.numLab.Text = this._formatNum(bingoNum);
+            this.bingoNum = random.Next(_scope);
+            this.numLab.Text = this._formatNum(this.bingoNum);
+        }
+
+        private void noFourInNum()
+        {
+            int bingoNumUnitDigit = 0;
+            int bingoNumTensDigit = 0;
+            int bingoNumHundreds = 0;
+
+            do
+            {
+                this.randomNum();
+                bingoNumUnitDigit = this.bingoNum % 10;
+                bingoNumTensDigit = (this.bingoNum % 100) / 10;
+                bingoNumHundreds = this.bingoNum / 100;
+            } while (bingoNumUnitDigit == 4 || bingoNumTensDigit == 4 || bingoNumHundreds == 4);
+
+
         }
 
         private void uniBtn_Click(object sender, EventArgs e)
@@ -42,6 +61,7 @@ namespace WindowsFormsApplication2
             else
             {
                 this.uniBtn.Text = "Start";
+                this.noFourInNum();
                 this.showNumTimer.Stop();
             }
         }
@@ -59,6 +79,7 @@ namespace WindowsFormsApplication2
             DialogResult result = cf.ShowDialog();
             this._scope = Convert.ToInt16(cf.Scope);
         }
+
 
     }
 }

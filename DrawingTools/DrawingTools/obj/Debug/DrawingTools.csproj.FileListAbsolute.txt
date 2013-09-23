@@ -8,3 +8,17 @@ D:\workspace\myC#\DrawingTools\DrawingTools\obj\Debug\DrawingTools.Properties.Re
 D:\workspace\myC#\DrawingTools\DrawingTools\obj\Debug\DrawingTools.csproj.GenerateResource.Cache
 D:\workspace\myC#\DrawingTools\DrawingTools\obj\Debug\DrawingTools.exe
 D:\workspace\myC#\DrawingTools\DrawingTools\obj\Debug\DrawingTools.pdb
+D:\workspace\myC#\myCSharpGarden\DrawingTools\DrawingTools\bin\Debug\DrawingTools.exe.config
+D:\workspace\myC#\myCSharpGarden\DrawingTools\DrawingTools\obj\Debug\DrawingTools.exe
+D:\workspace\myC#\myCSharpGarden\DrawingTools\DrawingTools\obj\Debug\DrawingTools.pdb
+D:\workspace\myC#\myCSharpGarden\DrawingTools\DrawingTools\bin\Debug\DrawingTools.exe.manifest
+D:\workspace\myC#\myCSharpGarden\DrawingTools\DrawingTools\bin\Debug\DrawingTools.application
+D:\workspace\myC#\myCSharpGarden\DrawingTools\DrawingTools\bin\Debug\DrawingTools.exe
+D:\workspace\myC#\myCSharpGarden\DrawingTools\DrawingTools\bin\Debug\DrawingTools.pdb
+D:\workspace\myC#\myCSharpGarden\DrawingTools\DrawingTools\obj\Debug\WindowsFormsApplication2.mainFrom.resources
+D:\workspace\myC#\myCSharpGarden\DrawingTools\DrawingTools\obj\Debug\WindowsFormsApplication2.confirmFrame.resources
+D:\workspace\myC#\myCSharpGarden\DrawingTools\DrawingTools\obj\Debug\DrawingTools.Properties.Resources.resources
+D:\workspace\myC#\myCSharpGarden\DrawingTools\DrawingTools\obj\Debug\DrawingTools.csproj.GenerateResource.Cache
+D:\workspace\myC#\myCSharpGarden\DrawingTools\DrawingTools\obj\Debug\DrawingTools.exe.manifest
+D:\workspace\myC#\myCSharpGarden\DrawingTools\DrawingTools\obj\Debug\DrawingTools.application
+D:\workspace\myC#\myCSharpGarden\DrawingTools\DrawingTools\obj\Debug\DrawingTools.csprojResolveAssemblyReference.cache
