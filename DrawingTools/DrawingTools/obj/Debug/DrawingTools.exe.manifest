@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DrawingTools.exe" size="71168">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DrawingTools.exe" size="176128">
       <assemblyIdentity name="DrawingTools" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>UT0SC8Qk4CbhZvBAPwmZdD1OOaE=</dsig:DigestValue>
+        <dsig:DigestValue>fAc0Xj6MT2urEGXhLTMTeKAffoY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -40,34 +40,41 @@
             // 
             this.numLab.AutoSize = true;
             this.numLab.BackColor = System.Drawing.Color.Transparent;
-            this.numLab.Font = new System.Drawing.Font("微软雅黑", 150F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.numLab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.numLab.Font = new System.Drawing.Font("微软雅黑", 238F);
             this.numLab.ForeColor = System.Drawing.Color.Silver;
-            this.numLab.Location = new System.Drawing.Point(-30, 79);
+            this.numLab.Location = new System.Drawing.Point(-55, 167);
             this.numLab.Name = "numLab";
-            this.numLab.Size = new System.Drawing.Size(460, 259);
+            this.numLab.Size = new System.Drawing.Size(733, 419);
             this.numLab.TabIndex = 0;
             this.numLab.Text = "000";
             // 
             // uniBtn
             // 
+            this.uniBtn.BackColor = System.Drawing.Color.Transparent;
             this.uniBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.uniBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uniBtn.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.uniBtn.FlatAppearance.BorderSize = 0;
+            this.uniBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.uniBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.uniBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.uniBtn.Font = new System.Drawing.Font("宋体", 15F);
             this.uniBtn.ForeColor = System.Drawing.Color.Black;
             this.uniBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.uniBtn.Location = new System.Drawing.Point(105, 341);
+            this.uniBtn.Location = new System.Drawing.Point(218, 606);
             this.uniBtn.Name = "uniBtn";
-            this.uniBtn.Size = new System.Drawing.Size(171, 50);
+            this.uniBtn.Size = new System.Drawing.Size(169, 40);
             this.uniBtn.TabIndex = 2;
             this.uniBtn.Text = "Start";
-            this.uniBtn.UseVisualStyleBackColor = true;
+            this.uniBtn.UseVisualStyleBackColor = false;
             this.uniBtn.Click += new System.EventHandler(this.uniBtn_Click);
             // 
             // authorLab
             // 
             this.authorLab.AutoSize = true;
             this.authorLab.BackColor = System.Drawing.Color.Transparent;
-            this.authorLab.Location = new System.Drawing.Point(295, 489);
+            this.authorLab.Location = new System.Drawing.Point(501, 798);
             this.authorLab.Name = "authorLab";
             this.authorLab.Size = new System.Drawing.Size(77, 12);
             this.authorLab.TabIndex = 3;
@@ -85,11 +92,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Brown;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(374, 510);
+            this.ClientSize = new System.Drawing.Size(590, 819);
             this.Controls.Add(this.authorLab);
             this.Controls.Add(this.uniBtn);
             this.Controls.Add(this.numLab);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "mainFrom";
             this.ShowInTaskbar = false;
